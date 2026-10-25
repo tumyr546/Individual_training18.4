@@ -1,0 +1,48 @@
+/* Базовий та сучасний CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* Прибираємо маркери списків за замовчуванням */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Зображення та медіа-елементи адаптивні */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Наслідування шрифтів для форм */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Скасування підкреслення посилань за замовчуванням (опціонально) */
+a {
+    text-decoration: none;
+    color: inherit;
+}
